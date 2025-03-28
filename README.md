@@ -1,3 +1,5 @@
+Data Analysis Using Power BI
+============================
 ## Sales Insights Data Analysis Project
 
 ### Instructions to setup mysql on your local computer
@@ -46,16 +48,23 @@
 and transactions.market_code="Mark001";`
 
 
-Data Analysis Using Power BI
-============================
 
-1. Formula to create norm_amount column
-
-`= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
-============================
 Screenshot:
 ============================
-![Screenshot 2025-03-06 230824](https://github.com/user-attachments/assets/2b598d92-1af2-4e8b-b400-5882280537d9)
+Total Revenue
+![Screenshot 2025-03-28 193604](https://github.com/user-attachments/assets/9e6d37db-c073-45eb-8bc8-59b9b0456605)
+============================
+Revenue of 2017
+![Screenshot 2025-03-28 193613](https://github.com/user-attachments/assets/ba2721a9-3632-47a0-a71c-1d4f2f2dc891)
+============================
+Revenue of 2018
+![Screenshot 2025-03-28 193620](https://github.com/user-attachments/assets/3502eeb8-7ac5-419d-89e5-db62d999ef17)
+============================
+Revenue of 2019
+![Screenshot 2025-03-28 193635](https://github.com/user-attachments/assets/4b75d551-3517-4d30-8360-ef6c26eb522d)
+============================
+Revenue of 2020
+![Screenshot 2025-03-28 193654](https://github.com/user-attachments/assets/a082a495-f7f8-4323-b1e3-042694136a06)
+============================
 
-![Screenshot 2025-03-06 230753](https://github.com/user-attachments/assets/4642415e-34d2-4397-b562-e3dd91436526)
 
