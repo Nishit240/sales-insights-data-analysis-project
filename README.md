@@ -1,5 +1,5 @@
-Data Analysis Using Power BI
-===========================
+<h1 align="center"> Data Analysis Using Power BI </h1>
+
 ## Sales Insights Data Analysis Project
 
 ### Instructions to setup mysql on your local computer
